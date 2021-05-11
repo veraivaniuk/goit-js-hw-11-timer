@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+  font-family: 'Mountains of Christmas', cursive;
+  color: white;
+  background-image: url(https://analyticsindiamag.com/wp-content/uploads/2020/10/7d744a684fe03ebc7e8de545f97739dd.jpg);
+  background-size: cover;
+}
+
+[data-value=days] {
+  font-size: 200px;
+  color: #414ddd;
+}
+[data-value=hours] {
+  font-size: 150px;
+  color: #6422dd;
+}
+[data-value=mins] {
+  font-size: 100px;
+  color: #9c39dd;
+}
+[data-value=secs] {
+  font-size: 50px;
+  color: #cd55dd;
+}
+
+div {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+}
+
+span {
+  display: block;
+  font-size: 20px;
+  color: rgb(245, 48, 156);
+}
